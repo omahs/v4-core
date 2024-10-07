@@ -267,7 +267,7 @@ library StateLibrary {
 
     /**
      * @notice Retrieves the liquidity of a position.
-     * @dev Corresponds to pools[poolId].positions[positionId].liquidity. More gas efficient for just retrieiving liquidity as compared to getPositionInfo
+     * @dev Corresponds to pools[poolId].positions[positionId].liquidity. More gas efficient for just retrieving liquidity as compared to getPositionInfo
      * @param manager The pool manager contract.
      * @param poolId The ID of the pool.
      * @param positionId The ID of the position.
